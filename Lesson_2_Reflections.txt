@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A hidden folder, "/.git" is created in the current directory, to track the
+metadata of files changed in the repository. Without initializing a
+repository, no change-tracking or version control would be done by Git.
