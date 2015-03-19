@@ -1,0 +1,75 @@
+How did viewing a diff between two versions of a file help you
+see the bug that was introduced?
+
+By showing the differences between a previous, *working*
+iteration of a program and the new, broken one, it makes it
+easier to pinpoint the location of any bugs, since the only
+lines that need to be checked are those that were changed.
+
+
+How could having access to the entire history of a file make
+you a more efficient programmer in the long term?
+
+Whether the program in question is being edited by just me,
+or by a team, having access to the entire history of a file
+not only makes it easier to pick up on where I (or my team)
+left off with their edits, but it also makes it easier and
+faster to fix broken code, by enabling the aforementioned
+"Undo button." Additionally, when working on a team, having
+older versions of the file allows different team members to
+fork the program and build different versions; not only
+could this possibly make cross-platform coding simpler (I
+can't back that up, as of right now, though), but it also
+allows the team to go back and try different solutions for
+achieving the program's desired functionality.
+
+
+What do you think are the pros and cons of manually
+choosing when to create a commit, like you do in Git, vs.
+having versions automatically saved, like Google Docs does?
+
+Pros:
+- Provided I save often (as I have been trained to), each
+  commit will be a workable and logical checkpoint.
+- History won't be bogged down by irrelevant old versions.
+
+Cons:
+- Allows for user error, in the case of forgetful user.
+
+
+Why do you think some version control systems, like Git,
+allow saving multiples files in one commit, while others,
+like Google Docs, treat each file separately?
+
+Simple -- that choice is dependent on what each system is
+intended for; Google Docs is largely intended for essays,
+research papers, dissertations, and other uses that do not
+generally require *file interdependecies*. For things like
+programming, which often rely very heavily on file
+interdependencies, it makes sense to track multiple files.
+
+
+How can you use the commands "git log" and "git diff" to
+view the history of files?
+
+"git log" displays the full history of commits in a
+repository for all included files, while "git diff" shows
+the differences between two specific commits.
+
+
+How might using version control make you more confident to
+make changes that could break something?
+
+It all goes back to the "Undo button;" as long as there are
+working iterations in a file's history, the worst that can
+happen in making changes is, I lose a little time reverting
+the code to a previous commit. Additionally, once the bugged
+commit is found, "git diff" does away with line-by-line code
+checking, and allows me to just analyze changed lines.
+
+
+
+Now that you have your workspace set up, what do you want to
+try using Git for?
+
+Avoiding headaches as a programmer.
