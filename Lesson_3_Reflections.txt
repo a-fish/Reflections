@@ -1,1 +1,7 @@
-When would you want to make a remote repository rather than keeping all your work locally?
+When would you want to make a remote repository rather than
+keeping all your work locally?
+
+Any time I want the work to be outside-accessible, so, any
+time I'm working on the repository from multiple machines, or
+any group project. Additionally, it's not a bad way to back up
+files.
