@@ -3,3 +3,46 @@ What happens when you initialize a repository? Why do you need to do it?
 A hidden folder, "/.git" is created in the current directory, to track the
 metadata of files changed in the repository. Without initializing a
 repository, no change-tracking or version control would be done by Git.
+
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+After making a change and using git add to add the changed file to the
+staging area, git status can be used to display what has been modified; if
+more than one change has been made before committing by accident, this
+allows the user to see this before it's too late, and fix their edits
+before making the new commit.
+
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Any time a new feature is to be introduced, a new branch allows the code to
+fork in two directions, as well as providing a human-readable label to use
+when referencing or checking out code.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams are a visual representation showing the relationship between
+different commits, parentage, and where branches started, etc.
+
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+The newly merged branch has parentage from both/all the merged branches,
+thus allowing git log to show all commits in its history, and the newly
+merged branch also becomes the tip of both branches (or just one, if the
+programmer then deletes one of the branches). We represent it in the
+diagram as we do because it's common sense (and, I suppose, because it
+shows the flow of parentage).
+
+
+What are the pros and cons of Git's automatic merging versus always merging
+manually?
+
+Automatic merging, when it works, is fast and doesn't require further
+thought, while manually merging could be significantly slower, but enables
+the programmer to "proofread" each merge, and make sure it works perfectly.
