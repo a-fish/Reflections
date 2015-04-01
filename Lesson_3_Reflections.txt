@@ -56,3 +56,13 @@ and its ilk, but it would have to be downloaded to be compiled and
 tested. The only way in which the absence of Git and GitHub would make
 collaborating *easier,* in particular, is that it might be faster to get
 coding done without periodically stopping to git commit, push, pull, etc.
+
+
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+Any time one is taking the development in a new direction, or simply
+making changes that other collaborators might not agree with. Working
+directly within master makes interconnecting the local work with GitHub
+more streamlined and simple, while using a new branch makes the review and
+editing of pull requests easier.
