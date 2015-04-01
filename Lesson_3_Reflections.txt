@@ -41,3 +41,18 @@ changes made to the repository, and have an idea of where the project is
 headed. Additionally, it may make it simpler, during collaboration, for
 GitHub to have a pointer that's (usually) going to be relatively close to
 the most recent version of the project on any collaborator's computer.
+
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+Sans Git and GitHub, I would likely use e-mail, USB flashdrives, and/or
+cloud services like Google Drive to host files containing code, to be
+individually downloaded and worked on by each collaborator. With each
+change made by collaborators, an e-mail would likely have to be sent to
+each other collaborator, containing the updated file(s), and a message
+about what changed. Otherwise, code could be edited within Google Drive
+and its ilk, but it would have to be downloaded to be compiled and
+tested. The only way in which the absence of Git and GitHub would make
+collaborating *easier,* in particular, is that it might be faster to get
+coding done without periodically stopping to git commit, push, pull, etc.
