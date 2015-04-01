@@ -30,3 +30,14 @@ are ready. Cloning, I would use to bring a remote repository (which may
 itself be a fork) onto my machine for further development. Forking, I would
 use any time I want to collaborate on a project's development/try to create
 a new feature that the lead developer is not currently pursuing.
+
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+It is possible to update the copy before entering into a situation without
+internet access, to work offline and still see some of the latest
+changes made to the repository, and have an idea of where the project is
+headed. Additionally, it may make it simpler, during collaboration, for
+GitHub to have a pointer that's (usually) going to be relatively close to
+the most recent version of the project on any collaborator's computer.
