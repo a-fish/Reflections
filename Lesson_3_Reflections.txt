@@ -1,7 +1,32 @@
-When would you want to make a remote repository rather than
-keeping all your work locally?
+When would you want to make a remote repository rather than keeping all your
+work locally?
 
-Any time I want the work to be outside-accessible, so, any
-time I'm working on the repository from multiple machines, or
-any group project. Additionally, it's not a bad way to back up
-files.
+Any time I want the work to be outside-accessible, so, any time I'm working
+on the repository from multiple machines, or any group project. Additionally,
+ it's not a bad way to back up files.
+
+
+Why might you want to always pull changes manually, rather than having Git
+automatically stay up-to-date with your remote repository?
+
+In the event that I cloned a repository from GitHub to work on my own branch,
+but had not bothered renaming it, I would not want the author's changes to
+reflect upon my work. (?)
+
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+Branching creates another line of development within a repository, while
+cloning takes an entire repository and makes a copy of it, branches and all,
+so that alternate/new lines of development may be done simultaneously and
+entirely separately from the original repository. Forking is much like
+cloning, only it's a feature that exists entirely within GitHub; in effect,
+it clones an online repository, creating a copy on one's own GitHub profile,
+and references back to the original repository so that credit is given
+where credit is due. Branching, I would use for solo projects/early
+development of new features, so that the features aren't visible until they
+are ready. Cloning, I would use to bring a remote repository (which may
+itself be a fork) onto my machine for further development. Forking, I would
+use any time I want to collaborate on a project's development/try to create
+a new feature that the lead developer is not currently pursuing.
